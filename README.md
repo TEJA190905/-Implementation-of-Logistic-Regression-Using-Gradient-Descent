@@ -27,7 +27,7 @@ RegisterNumber: 212223240168
 import pandas as pd 
 import numpy as np 
 import matplotlib.pyplot as plt 
-data=pd.read_csv(r"E:\Desktop\CSE\Introduction To Machine Learning\dataset\Placement_Data.csv")
+data=pd.read_csv('Downloads/Placement_Data.csv')
 data=data.drop('sl_no',axis=1) 
 data=data.drop('salary',axis=1) 
 data["gender"]=data["gender"].astype('category') 
